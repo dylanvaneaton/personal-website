@@ -22,5 +22,6 @@
 }
 
 html {
-    background-image: url("../assets/sky.jpg");
+    background-image: url("/assets/sky.jpg");
 }
+
