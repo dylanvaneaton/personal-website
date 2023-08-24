@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mainColor {
+
+    background-color: #03fc88;
+}
+
+.ant-menu-item {
+    background-color: aquamarine !important;
+    margin: 12px !important;
+    margin-right: 0 !important;
+    border-radius: 12px !important;
+}
+
+.dopeBorder {
+    border-radius: 12px;
+    border-width: 8px;
+    border-color: hotpink;
+    border-style: groove;
+}
+
+html {
+    background-image: url("../assets/sky.jpg");
+}
