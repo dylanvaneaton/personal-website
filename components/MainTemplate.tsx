@@ -22,16 +22,16 @@ export function MainTemplate({ children }: MainTemplateProps) {
   const router = useRouter();
 
   return (
-    <div className="flex flex-col items-center justify-center h-full mx-4 mt-4 dopeBorder shadow-pink-600 shadow-xl">
+    <>
       <Menu
         mode="horizontal"
         items={items}
         activeKey={router.pathname}
-        className="bg-green-600 w-full"
+        className="bg-gradient-to-r from-green-800 to-[#003014] w-full border-2 border-black"
         onClick={({ key }) => router.push(key)}
       ></Menu>
 
-      <div className="w-full h-full bg-green-800 p-8 mt-0">{children}</div>
-    </div>
+      <div className="">{children}</div>
+    </>
   );
 }

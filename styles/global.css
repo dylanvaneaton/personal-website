@@ -8,20 +8,27 @@
 }
 
 .ant-menu-item {
-    background-color: aquamarine !important;
-    margin: 12px !important;
+    background-color: #592f0c !important;
+    margin: 4px !important;
     margin-right: 0 !important;
-    border-radius: 12px !important;
+    border-radius: 2px !important;
 }
 
 .dopeBorder {
     border-radius: 12px;
     border-width: 8px;
-    border-color: hotpink;
+    border-color: white;
     border-style: groove;
+    border-left-width: 0;
+
+}
+
+.waterBackground {
+    background-image: url("/assets/water/waterbigger.png");
+    background-size: "200px";
 }
 
 html {
-    background-image: url("/assets/sky.jpg");
+    background-color: #003014;
 }
 
